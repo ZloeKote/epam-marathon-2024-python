@@ -1,0 +1,51 @@
+main:14 - Logging configured!
+uvicorn.error:62 - Application startup complete.
+uvicorn.error:258 - Shutting down
+uvicorn.error:67 - Waiting for application shutdown.
+uvicorn.error:76 - Application shutdown complete.
+uvicorn.error:92 - Finished server process [7]
+main:15 - Logging configured!
+uvicorn.error:62 - Application startup complete.
+main:35 - Request: GET http://localhost:8000/docs
+main:40 - Completed in 0.01s | Status: 200
+uvicorn.access:466 - 172.20.0.1:42662 - "GET /docs HTTP/1.1" 200
+main:35 - Request: GET http://localhost:8000/openapi.json
+main:40 - Completed in 0.04s | Status: 200
+uvicorn.access:466 - 172.20.0.1:42662 - "GET /openapi.json HTTP/1.1" 200
+main:35 - Request: GET http://localhost:8000/api1/v1/users/me
+main:40 - Completed in 0.00s | Status: 404
+uvicorn.access:466 - 172.20.0.1:42710 - "GET /api1/v1/users/me HTTP/1.1" 404
+main:35 - Request: GET http://localhost:8000/api/v1/users/me
+main:40 - Completed in 0.01s | Status: 401
+uvicorn.access:466 - 172.20.0.1:42732 - "GET /api/v1/users/me HTTP/1.1" 401
+main:35 - Request: POST http://localhost:8000/api/v1/auth/login
+main:40 - Completed in 0.15s | Status: 400
+uvicorn.access:466 - 172.20.0.1:42790 - "POST /api/v1/auth/login HTTP/1.1" 400
+main:35 - Request: POST http://localhost:8000/api/v1/auth/login
+main:40 - Completed in 0.12s | Status: 200
+uvicorn.access:466 - 172.20.0.1:42830 - "POST /api/v1/auth/login HTTP/1.1" 200
+main:35 - Request: GET http://localhost:8000/api/v1/users/me
+main:40 - Completed in 0.01s | Status: 401
+uvicorn.access:466 - 172.20.0.1:42882 - "GET /api/v1/users/me HTTP/1.1" 401
+main:35 - Request: GET http://localhost:8000/api/v1/users/me
+main:40 - Completed in 0.00s | Status: 401
+uvicorn.access:466 - 172.20.0.1:42894 - "GET /api/v1/users/me HTTP/1.1" 401
+main:35 - Request: GET http://localhost:8000/api/v1/users/me
+main:40 - Completed in 0.00s | Status: 401
+uvicorn.access:466 - 172.20.0.1:42908 - "GET /api/v1/users/me HTTP/1.1" 401
+main:35 - Request: GET http://localhost:8000/api/v1/users/me
+main:40 - Completed in 0.08s | Status: 200
+uvicorn.access:466 - 172.20.0.1:42920 - "GET /api/v1/users/me HTTP/1.1" 200
+main:35 - Request: GET http://localhost:8000/api/v1/users/me
+main:40 - Completed in 0.01s | Status: 200
+uvicorn.access:466 - 172.20.0.1:42932 - "GET /api/v1/users/me HTTP/1.1" 200
+main:35 - Request: GET http://localhost:8000/api/v1/users/me
+main:40 - Completed in 0.00s | Status: 401
+uvicorn.access:466 - 172.20.0.1:42942 - "GET /api/v1/users/me HTTP/1.1" 401
+main:35 - Request: GET http://localhost:8000/api/v1/users/me
+main:40 - Completed in 0.01s | Status: 200
+uvicorn.access:466 - 172.20.0.1:42952 - "GET /api/v1/users/me HTTP/1.1" 200
+uvicorn.error:258 - Shutting down
+uvicorn.error:67 - Waiting for application shutdown.
+uvicorn.error:76 - Application shutdown complete.
+uvicorn.error:92 - Finished server process [7]
